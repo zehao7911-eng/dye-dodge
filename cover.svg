@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+<defs>
+  <linearGradient id="sky" x2=".8" y2="1"><stop stop-color="#cbfeff"/><stop offset=".64" stop-color="#74efff"/><stop offset="1" stop-color="#0caee6"/></linearGradient>
+  <linearGradient id="fur" x2=".25" y2="1"><stop stop-color="#fffbab"/><stop offset=".52" stop-color="#ffda18"/><stop offset="1" stop-color="#f78910"/></linearGradient>
+  <linearGradient id="platform" x2=".65" y2="1"><stop stop-color="#0d60ef"/><stop offset="1" stop-color="#38229b"/></linearGradient>
+  <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M0 0h80v80" fill="none" stroke="#f9ffff" stroke-width="2" opacity=".26"/></pattern>
+  <g id="pad"><path d="m0 23 40-29h102l39 29v36l-39 29H40L0 59z" fill="#162a64"/><path d="m0 16 40-29h102l39 29v25l-39 29H40L0 41z" fill="currentColor"/><path d="m4 12 38-27h99l36 27v18l-36 26H42L4 30z" fill="currentColor" stroke="#fffce9" stroke-width="4"/></g>
+</defs>
+<rect width="1280" height="720" fill="url(#sky)"/><rect width="1280" height="720" fill="url(#grid)"/>
+<g fill="#f4ffff" opacity=".92"><ellipse cx="1025" cy="98" rx="120" ry="33"/><ellipse cx="1008" cy="75" rx="56" ry="39"/><ellipse cx="1181" cy="258" rx="86" ry="28"/><ellipse cx="1158" cy="240" rx="39" ry="27"/><ellipse cx="667" cy="133" rx="92" ry="23"/></g>
+<path d="m570 525 97-134 343-75 219 111v75L1082 643l-327 10-181-74z" fill="url(#platform)" stroke="#142450" stroke-width="9"/>
+<path d="m574 507 98-129 338-72 209 108-140 145-321 28z" fill="#fff8e8" stroke="#142450" stroke-width="9"/>
+<g transform="translate(680 402) scale(.9)"><use href="#pad" style="color:#ff4796"/></g>
+<g transform="translate(840 366) scale(.91)"><use href="#pad" style="color:#2ae3e4"/><ellipse cx="92" cy="22" rx="18" ry="10" fill="#fff8e4" stroke="#152858" stroke-width="4"/></g>
+<g transform="translate(984 405) scale(.93)"><use href="#pad" style="color:#ff4796"/><path d="m77 30 16-19 16 19z" fill="#fff8e4" stroke="#152858" stroke-width="4"/></g>
+<g transform="translate(639 468) scale(1.04)"><use href="#pad" style="color:#24e4e9"/><ellipse cx="92" cy="22" rx="18" ry="10" fill="#fff8e4" stroke="#152858" stroke-width="4"/></g>
+<g transform="translate(829 465) scale(1.12)"><use href="#pad" style="color:#ffda1c"/><path d="m73 23 18-12 18 12-18 12z" fill="#fff8e4" stroke="#152858" stroke-width="4"/></g>
+<g transform="translate(1060 198)">
+  <ellipse cx="0" cy="7" rx="82" ry="38" fill="#7a42ed" stroke="#162853" stroke-width="6"/>
+  <ellipse cx="0" cy="-2" rx="70" ry="39" fill="#fcf8ff" stroke="#162853" stroke-width="6"/>
+  <path d="M-40 0q43-25 78 0v20q-32 26-78 0z" fill="#17234f"/>
+  <rect x="-17" y="1" width="34" height="10" rx="5" fill="#ff438f"/>
+  <path d="M-65-3h-38m166 0h38" stroke="#6241e9" stroke-width="14" stroke-linecap="round"/>
+  <ellipse cx="-105" cy="-6" rx="29" ry="12" fill="#73fff3" stroke="#162853" stroke-width="5"/><ellipse cx="104" cy="-6" rx="29" ry="12" fill="#73fff3" stroke="#162853" stroke-width="5"/>
+</g>
+<g transform="translate(854 335)">
+  <path d="M-44 51c-55 10-111-27-77-70 11-15 30-12 35 3 5 15-22 20-21 7" fill="none" stroke="#142654" stroke-width="32" stroke-linecap="round"/>
+  <path d="M-44 51c-55 10-111-27-77-70 11-15 30-12 35 3 5 15-22 20-21 7" fill="none" stroke="#ffbf23" stroke-width="22" stroke-linecap="round"/>
+  <path d="M-68 77q-15 35 15 39l24-3 10-31m49-1q-7 34 25 33l24-1q16-14-3-31" fill="#ffd528" stroke="#142654" stroke-width="7"/>
+  <path d="M-66 30q7-28 48-37L1-42l21 34 22-25 10 27q58 1 75 45 19 52-37 61L8 101q-70 1-79-41z" fill="url(#fur)" stroke="#142654" stroke-width="8"/>
+  <ellipse cx="73" cy="39" rx="28" ry="29" fill="#fffdec" stroke="#e78a10" stroke-width="5"/>
+  <circle cx="81" cy="40" r="13" fill="#172b55"/><circle cx="84" cy="35" r="4" fill="#fff"/>
+  <path d="M62 78q26 10 48-9" fill="none" stroke="#162750" stroke-width="6" stroke-linecap="round"/>
+  <path d="M-39 25q18-16 34-13" fill="none" stroke="#fff9af" stroke-width="8" stroke-linecap="round"/>
+</g>
+<path d="M15 170 560 129 620 470 76 510z" fill="#142756" stroke="#fffef4" stroke-width="10"/>
+<g font-family="system-ui,sans-serif" font-weight="950" font-style="italic" transform="rotate(-5 200 340)">
+  <text x="86" y="321" fill="#ffe44a" font-size="134" letter-spacing="-9">DYE</text>
+  <text x="75" y="435" fill="#ff509f" font-size="118" letter-spacing="-8">DODGE</text>
+</g>
+<text x="92" y="559" fill="#142756" font-family="system-ui,sans-serif" font-weight="900" font-size="22" letter-spacing="4">MATCH YOUR COLOR.</text>
+<text x="92" y="594" fill="#142756" font-family="system-ui,sans-serif" font-weight="900" font-size="22" letter-spacing="4">DODGE THE SCAN.</text>
+</svg>

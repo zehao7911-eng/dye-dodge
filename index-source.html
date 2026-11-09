@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#90edff">
+<meta name="description" content="Slide a chameleon to matching paint before the drone scans. A one-thumb 3D arcade game.">
+<title>Dye Dodge</title>
+<link rel="icon" href="icon.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="game" aria-label="Dye Dodge">
+  <canvas id="scene" aria-label="Drag across the arena to move. You can also tap a tile or use the arrow keys."></canvas>
+  <header class="hud">
+    <div class="run-info"><span class="brand">DYE<span> / </span>DODGE</span><div class="points"><strong id="score">0</strong><span>PTS</span></div></div>
+    <div class="controls"><div id="hearts" aria-label="3 lives"></div><button id="sound" aria-label="Mute sound" title="Sound"></button></div>
+  </header>
+  <div class="mission" id="mission">
+    <div class="lab"><span id="lab-num">01</span><span id="lab-name"></span><span id="scan-num"></span></div>
+    <div class="match"><span id="swatch"></span><strong id="goal">MATCH YOUR COLOR</strong></div>
+    <div class="meter" aria-hidden="true"><i id="timer"></i></div>
+  </div>
+  <div class="callout" id="callout" aria-live="polite" hidden></div>
+  <div class="footer"><span id="tip">DRAG TO A MATCHING TILE</span><span id="streak" hidden></span></div>
+  <section class="overlay" id="overlay" aria-label="Game menu">
+    <div class="panel" id="panel">
+      <div class="kicker" id="kicker">THE PAINTWORKS</div>
+      <h1 id="heading">Dye<span> Dodge</span></h1>
+      <p id="subheading">Slide onto your color before the drone scans.</p>
+      <button id="play">Play</button>
+      <div id="rewards" hidden></div>
+    </div>
+  </section>
+</main>
+<script src="vendor/three.min.js"></script>
+<script type="module" src="app.mjs"></script>
+</body>
+</html>
